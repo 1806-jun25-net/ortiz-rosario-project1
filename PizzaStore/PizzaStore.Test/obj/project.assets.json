@@ -5714,11 +5714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Revature\\training-code\\Project1\\PizzaStore\\PizzaStore.Test\\PizzaStore.Test.csproj",
+      "projectUniqueName": "E:\\Revature\\ortiz-rosario-project1\\PizzaStore\\PizzaStore.Test\\PizzaStore.Test.csproj",
       "projectName": "PizzaStore.Test",
-      "projectPath": "E:\\Revature\\training-code\\Project1\\PizzaStore\\PizzaStore.Test\\PizzaStore.Test.csproj",
+      "projectPath": "E:\\Revature\\ortiz-rosario-project1\\PizzaStore\\PizzaStore.Test\\PizzaStore.Test.csproj",
       "packagesPath": "C:\\Users\\Luisito\\.nuget\\packages\\",
-      "outputPath": "E:\\Revature\\training-code\\Project1\\PizzaStore\\PizzaStore.Test\\obj\\",
+      "outputPath": "E:\\Revature\\ortiz-rosario-project1\\PizzaStore\\PizzaStore.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

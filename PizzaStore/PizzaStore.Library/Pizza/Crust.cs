@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PizzaStore.Library
+namespace PizzaStore.Library.Pizza
 {
-    public class Location : IPizzaStore
+    public class Crust
     {
-        
+
     }
 }
