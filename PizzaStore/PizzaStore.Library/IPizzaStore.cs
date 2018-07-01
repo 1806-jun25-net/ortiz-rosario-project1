@@ -6,7 +6,7 @@ namespace PizzaStore.Library
 {
     public interface IPizzaStore
     {
-        string NamePizza{get; }
-        int Ingredient { get; set; } 
+    //    string NamePizza{get; }
+    //    int Ingredient { get; set; } 
     }
 }

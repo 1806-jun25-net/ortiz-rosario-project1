@@ -1,0 +1,14 @@
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\bin\Debug\netcoreapp2.1\PizzaStore.UI.deps.json
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\bin\Debug\netcoreapp2.1\PizzaStore.UI.runtimeconfig.json
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\bin\Debug\netcoreapp2.1\PizzaStore.UI.runtimeconfig.dev.json
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\bin\Debug\netcoreapp2.1\PizzaStore.UI.dll
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\bin\Debug\netcoreapp2.1\PizzaStore.UI.pdb
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\bin\Debug\netcoreapp2.1\PizzaStore.Library.dll
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\bin\Debug\netcoreapp2.1\PizzaStore.Library.pdb
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\obj\Debug\netcoreapp2.1\PizzaStore.UI.csprojAssemblyReference.cache
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\obj\Debug\netcoreapp2.1\PizzaStore.UI.csproj.CoreCompileInputs.cache
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\obj\Debug\netcoreapp2.1\PizzaStore.UI.AssemblyInfoInputs.cache
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\obj\Debug\netcoreapp2.1\PizzaStore.UI.AssemblyInfo.cs
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\obj\Debug\netcoreapp2.1\PizzaStore.UI.csproj.CopyComplete
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\obj\Debug\netcoreapp2.1\PizzaStore.UI.dll
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.UI\obj\Debug\netcoreapp2.1\PizzaStore.UI.pdb

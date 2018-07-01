@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PizzaStore.Library;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -13,8 +14,21 @@ namespace PizzaStore.UI
 {
     public class Program
     {
+        
         static void Main(string[] args)
         {
+           
+            User user = new User();
+            Order order = new Order();
+            User.GetCommandLine(); 
+            Console.WriteLine("Welcome to Puerto Rico Pizza");
+            Console.WriteLine("To order, follow the next steps: ");
+            user.UserInfo();
+
+
+
+
+            Console.ReadLine(); 
 
         }
     }
