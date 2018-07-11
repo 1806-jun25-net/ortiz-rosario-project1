@@ -1,0 +1,13 @@
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\bin\Debug\netcoreapp2.1\PizzaStore.Test.deps.json
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\bin\Debug\netcoreapp2.1\PizzaStore.Test.runtimeconfig.json
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\bin\Debug\netcoreapp2.1\PizzaStore.Test.runtimeconfig.dev.json
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\bin\Debug\netcoreapp2.1\PizzaStore.Test.dll
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\bin\Debug\netcoreapp2.1\PizzaStore.Test.pdb
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcoreapp2.1\PizzaStore.Test.csproj.CoreCompileInputs.cache
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcoreapp2.1\PizzaStore.Test.AssemblyInfoInputs.cache
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcoreapp2.1\PizzaStore.Test.AssemblyInfo.cs
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcoreapp2.1\PizzaStore.Test.dll
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcoreapp2.1\PizzaStore.Test.pdb

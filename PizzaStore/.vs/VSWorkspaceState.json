@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PizzaStore.Data",
+    "\\PizzaStore.Library",
+    "\\PizzaStore.Library\\Repositories",
+    "\\PizzaStore.Test",
+    "\\PizzaStore.UI"
+  ],
+  "SelectedNode": "\\PizzaStore.Library\\Repositories\\PizzaRepository.cs",
+  "PreviewInSolutionExplorer": false
+}

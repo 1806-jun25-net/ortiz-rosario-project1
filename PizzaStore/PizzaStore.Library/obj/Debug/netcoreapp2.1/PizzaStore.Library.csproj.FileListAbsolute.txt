@@ -7,3 +7,8 @@ E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Library\obj\Debug\netco
 E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Library\obj\Debug\netcoreapp2.1\PizzaStore.Library.AssemblyInfo.cs
 E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Library\obj\Debug\netcoreapp2.1\PizzaStore.Library.dll
 E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Library\obj\Debug\netcoreapp2.1\PizzaStore.Library.pdb
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Library\bin\Debug\netcoreapp2.1\PizzaStore.Library.runtimeconfig.json
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Library\bin\Debug\netcoreapp2.1\PizzaStore.Library.runtimeconfig.dev.json
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Library\bin\Debug\netcoreapp2.1\PizzaStore.Data.dll
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Library\bin\Debug\netcoreapp2.1\PizzaStore.Data.pdb
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Library\obj\Debug\netcoreapp2.1\PizzaStore.Library.csproj.CopyComplete
