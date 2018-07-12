@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaStore.UI", "PizzaStore
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaStore.Test", "PizzaStore.Test\PizzaStore.Test.csproj", "{FC764130-5A75-42EA-92AB-4082E7FDE046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore.Data", "PizzaStore.Data\PizzaStore.Data.csproj", "{4360514C-6A75-4FFB-93FA-29922FBD55DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaStore.Data", "PizzaStore.Data\PizzaStore.Data.csproj", "{4360514C-6A75-4FFB-93FA-29922FBD55DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreWebApp", "PizzaStoreWebApp\PizzaStoreWebApp.csproj", "{0A1CC52D-2B2E-443B-A13F-96FDDD4BF838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4360514C-6A75-4FFB-93FA-29922FBD55DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4360514C-6A75-4FFB-93FA-29922FBD55DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4360514C-6A75-4FFB-93FA-29922FBD55DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1CC52D-2B2E-443B-A13F-96FDDD4BF838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1CC52D-2B2E-443B-A13F-96FDDD4BF838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1CC52D-2B2E-443B-A13F-96FDDD4BF838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1CC52D-2B2E-443B-A13F-96FDDD4BF838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

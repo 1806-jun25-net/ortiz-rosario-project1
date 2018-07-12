@@ -8,7 +8,7 @@ namespace PizzaStore.Library
     {
         public int PizzaSize { get; set; }
         public int SelectingIng { get; set; }
-        //private int DrinkSelection { get; set; }
+        //private int DrinkSelection { get; set; }d
         public int QuantityPizzas { get; set; }
         public string ToppingName { get; set; }
         public double PriceTopp { get; set; }

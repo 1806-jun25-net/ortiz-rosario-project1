@@ -25,15 +25,10 @@ namespace PizzaStore.Library.Repositories
             return users; 
         }
 
-        public void AddUser(string firstName, string lastName, string phoneNumber)
+        public void AddUser(User user)
         {
-            var user = new User
-            {
-                FirstName = firstName,
-                LastName = lastName,
-                PhoneNumber = phoneNumber
-            };
-            _db.Add(user); 
+            
+            _db.Add(PizzaStoreMapper.Map(user)); 
         }
 
         public void DeleteById(int id)
@@ -51,7 +46,7 @@ namespace PizzaStore.Library.Repositories
             _db.Update(user);
         }
 
-        public void SaveChanges()
+        public void Save()
         {
             _db.SaveChanges(); 
         }
