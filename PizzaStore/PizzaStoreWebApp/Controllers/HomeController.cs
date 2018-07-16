@@ -12,6 +12,7 @@ namespace PizzaStoreWebApp.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Messsage"] = "Welcome to Puerto Rico Pizza.";
             return View();
         }
 

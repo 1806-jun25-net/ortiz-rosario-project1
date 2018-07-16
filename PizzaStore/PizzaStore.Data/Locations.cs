@@ -7,14 +7,15 @@ namespace PizzaStore.Data
     {
         public Locations()
         {
-            Inventory = new HashSet<Inventory>();
+            Orders = new HashSet<Orders>();
         }
 
         public int StoreId { get; set; }
+        public int? OrderId { get; set; }
         public string StoreLocation { get; set; }
         public int? UserIds { get; set; }
 
         public Users UserIdsNavigation { get; set; }
-        public ICollection<Inventory> Inventory { get; set; }
+        public ICollection<Orders> Orders { get; set; }
     }
 }

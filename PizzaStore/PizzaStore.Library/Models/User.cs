@@ -19,20 +19,16 @@ namespace PizzaStore.Library
         //backing fields for the "First Name", "Last Name" and "Phone Number" properties
         //Will define and help me in the validation 
         private string _FName;
-        //public string FirstName { get; set; }
+        
         private string _LName;
-        //public string LastName { get; set; }
         private string _Mobile;
 
 
-        private string _ExistingUser; 
+        //private string _ExistingUser; 
         //public int Options { get; set; }
 
-       
-        //Default Construstor 
-        public User() { }
 
-       
+        
         
         public string FName
         {
@@ -71,22 +67,10 @@ namespace PizzaStore.Library
             }
         }
 
+        public List<int> History { get; set; } = new List<int>(); 
+       
 
-        public List<User> Users { get; set; } = new List<User>(); 
-
-        /*
-         * Search for existing users
-         */
-        //public string ExistingUser
-        //{
-        //    get
-        //    {
-        //        if()
-        //        {
-
-        //        }
-        //    }
-        //}
+        
 
 
 
@@ -95,7 +79,7 @@ namespace PizzaStore.Library
 
 
 
-
+        //public List<User> Usuarios { get; set; } = new List<User>(); 
 
         /*
         * Once the program start, the user will be able to enter his info before

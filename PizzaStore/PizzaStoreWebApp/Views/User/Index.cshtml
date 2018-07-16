@@ -1,0 +1,87 @@
+﻿@model IEnumerable<PizzaStoreWebApp.Models.UserModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+
+    <h4>User</h4>
+
+        <form asp-action="Index" method="get">
+            Search: <input type="search" name="search"/>
+            <button type="submit">Submit</button>
+        </form>
+        <p>
+        <a asp-action="Create">Create New Account to place order</a>
+        </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                 </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+              </tr>
+           </thead>
+        <tbody>
+   @foreach (var item in Model)
+   {
+       <tr>
+           <td>
+               @Html.DisplayFor(modelItem => item.FirstName)
+           </td>
+           <td>
+               @Html.DisplayFor(modelItem => item.LastName)
+           </td>
+           <td>
+               @Html.DisplayFor(modelItem => item.MobileNumber)
+           </td>
+           <td>
+                
+              
+               @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+
+               @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+
+               
+               </td>
+           </tr>
+   }
+           </tbody>
+        </table>
+
+   
+
+    @*<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MobileNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MobileNumber)
+        </dd>
+    </dl>
+</div>*@

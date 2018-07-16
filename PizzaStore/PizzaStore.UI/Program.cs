@@ -92,6 +92,7 @@ namespace PizzaStore.UI
 
 
                     case 3:
+
                     Console.WriteLine("Our crust is hand-tossed with garlic on the border");
                     Console.WriteLine("Convered with high quality Mozzarella Cheese and " +
                         "homemade Marinara Salsa");
@@ -112,8 +113,8 @@ namespace PizzaStore.UI
                     {
                         goto case 1; 
                     }
-                    else
-                        while(input1 )
+                    //else
+                    //    while(input1 )
                        
 
                     

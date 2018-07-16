@@ -17,34 +17,103 @@ namespace PizzaStore.Library.Repositories
             _db = db ?? throw new ArgumentNullException(nameof(db)); 
         }
 
-        
-
-        public IEnumerable<Users> GetUsersWithNames()
+       
+        public IEnumerable<PizzaStore.Library.User> GetUserFirstName(string search = null)
         {
-            List<Users> users = _db.Users.Include(u => u.UserIds).AsNoTracking().ToList();
-            return users; 
+            if(search == null)
+            {
+                 return PizzaStoreMapper.Map(_db.Users.Include(o => o.Orders).AsNoTracking());
+            }
+            else
+            {
+                return PizzaStoreMapper.Map(_db.Users.Include(o => o.Orders)
+                    .AsNoTracking().Where(x => x.FirstName.Contains(search)));
+            }
+           
         }
 
-        public void AddUser(User user)
+        public IEnumerable<PizzaStore.Library.User> GetUserLastName(string search = null)
+        {
+            if (search == null)
+            {
+                return PizzaStoreMapper.Map(_db.Users.Include(o => o.Orders).AsNoTracking());
+            }
+            else
+            {
+                return PizzaStoreMapper.Map(_db.Users.Include(o => o.Orders)
+                    .AsNoTracking().Where(z => z.LastName.Contains(search                                           )));
+            }
+
+        }
+
+        public IEnumerable<PizzaStore.Library.User> GetUserPhoneNumber(string search = null)
+        {
+            if (search == null)
+            {
+                return PizzaStoreMapper.Map(_db.Users.Include(o => o.Orders).AsNoTracking());
+            }
+            else
+            {
+                return PizzaStoreMapper.Map(_db.Users.Include(o => o.Orders)
+                    .AsNoTracking().Where(p => p.PhoneNumber.Contains(search)));
+            }
+
+        }
+        public User GetUsersByID(int id)
+        {
+            return PizzaStoreMapper.Map(_db.Users.Include(o => o.Orders)
+                .AsNoTracking().First(y => y.UserIds == id));
+        }
+
+
+        public void AddUserFirstName(User first_Name)
         {
             
-            _db.Add(PizzaStoreMapper.Map(user)); 
+            _db.Add(PizzaStoreMapper.Map(first_Name)); 
         }
 
-        public void DeleteById(int id)
+        public void AddUserLastName(User last_Name)
         {
-            var user = _db.Users.Find(id);
-            if(user == null)
-            {
-                throw new ArgumentException("No such user id", nameof(id)); 
-            }
-            _db.Remove(user); 
+            _db.Add(PizzaStoreMapper.Map(last_Name));
         }
-        
-        public void EditUser(User user)
+
+        public void AddUserPhoneNumber(User phone_Number)
         {
-            _db.Update(user);
+            _db.Add(PizzaStoreMapper.Map(phone_Number)); 
         }
+
+        public void AddUsertoDB(User user)
+        {
+            _db.Add(PizzaStoreMapper.Map(user));
+        }
+
+        public void DeleteUser(int userId)
+        {
+            _db.Remove(_db.Users.Find(userId)); 
+
+            //var users = _db.Users; 
+            //foreach(var user in users)
+            //{
+            //    if(firstName == user.FirstName && lastName == user.LastName)
+            //    {
+            //        _db.Remove(user); 
+            //    }
+            //}
+        }
+
+        //public List<Order> GetUserHistory(User user)
+        //{
+        //    var orders = _db.Orders;
+        //    List<User> ListOfOrders = new List<User>();
+        //    foreach (var item in orders)
+        //    {
+        //        if (user.Id == item.UserIds)
+        //        {
+        //            ListOfOrders.Add(PizzaStoreMapper.Map(item));
+        //        }
+        //    }
+        //    return ListOfOrders;
+        //}
 
         public void Save()
         {

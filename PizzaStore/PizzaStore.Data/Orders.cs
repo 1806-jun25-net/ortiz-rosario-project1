@@ -7,16 +7,17 @@ namespace PizzaStore.Data
     {
         public Orders()
         {
-            Pizzas = new HashSet<Pizzas>();
+            PizzasTypes = new HashSet<PizzasTypes>();
         }
 
         public int OrderId { get; set; }
-        public DateTime OrderTime { get; set; }
+        public DateTime? OrderTimeStamp { get; set; }
         public decimal TotalPrice { get; set; }
-        public decimal ToppingPrice { get; set; }
-        public int PizzaId { get; set; }
+        public int? UserIds { get; set; }
+        public int? StoreId { get; set; }
 
-        
-        public ICollection<Pizzas> Pizzas { get; set; }
+        public Locations Store { get; set; }
+        public Users UserIdsNavigation { get; set; }
+        public ICollection<PizzasTypes> PizzasTypes { get; set; }
     }
 }

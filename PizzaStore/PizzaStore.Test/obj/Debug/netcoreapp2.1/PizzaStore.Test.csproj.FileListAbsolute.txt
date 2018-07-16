@@ -11,3 +11,4 @@ E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcorea
 E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcoreapp2.1\PizzaStore.Test.AssemblyInfo.cs
 E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcoreapp2.1\PizzaStore.Test.dll
 E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcoreapp2.1\PizzaStore.Test.pdb
+E:\Revature\ortiz-rosario-project1\PizzaStore\PizzaStore.Test\obj\Debug\netcoreapp2.1\PizzaStore.Test.csprojAssemblyReference.cache

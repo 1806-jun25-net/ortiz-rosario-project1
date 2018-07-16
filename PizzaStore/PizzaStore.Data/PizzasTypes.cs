@@ -3,14 +3,13 @@ using System.Collections.Generic;
 
 namespace PizzaStore.Data
 {
-    public partial class Pizzas
+    public partial class PizzasTypes
     {
         public int PizzaId { get; set; }
-        public decimal PizzaPrice { get; set; }
         public string PizzaSizes { get; set; }
-        public decimal ToppingPrice { get; set; }
-        public int IngredientId { get; set; }
+        public string PizzaName { get; set; }
         public int? OrderId { get; set; }
+        public int PizzasQuantity { get; set; }
 
         public Orders Order { get; set; }
     }
